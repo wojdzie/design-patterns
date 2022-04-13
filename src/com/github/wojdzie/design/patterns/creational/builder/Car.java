@@ -2,20 +2,24 @@ package com.github.wojdzie.design.patterns.creational.builder;
 
 public class Car {
 
-    private String brand;
+    private String company;
     private String model;
     private String color;
-
-    private Car(CarBuilder builder) {
-           this.brand = builder.brand;
-           this.model = builder.model;
-           this.color = builder.color;
-    }
+    private String engine;
+    private int seats;
 
     private Car() {}
 
-    public String getBrand() {
-        return brand;
+    private Car(CarBuilder carBuilder) {
+        this.company = carBuilder.company;
+        this.model = carBuilder.model;
+        this.color = carBuilder.color;
+        this.engine = carBuilder.engine;
+        this.seats = carBuilder.seats;
+    }
+
+    public String getCompany() {
+        return company;
     }
 
     public String getModel() {
@@ -26,18 +30,28 @@ public class Car {
         return color;
     }
 
-    public static CarBuilder builder() {
-        return new CarBuilder();
+    public String getEngine() {
+        return engine;
+    }
+
+    public int getSeats() {
+        return seats;
     }
 
     private static class CarBuilder {
+        String company;
+        String model;
+        String color;
+        String engine;
+        int seats;
 
-        private String brand;
-        private String model;
-        private String color;
+        public CarBuilder(String company, String model) {
+            this.company = company;
+            this.model = model;
+        }
 
-        public CarBuilder brand(String brand) {
-            this.brand = brand;
+        public CarBuilder company(String company) {
+            this.company = company;
             return this;
         }
 
@@ -51,16 +65,18 @@ public class Car {
             return this;
         }
 
+        public CarBuilder engine(String engine) {
+            this.engine = engine;
+            return this;
+        }
+
+        public CarBuilder seats(int seats) {
+            this.seats = seats;
+            return this;
+        }
+
         public Car build() {
             return new Car(this);
         }
-    }
-
-    public static void main(String...args) {
-        Car car = Car.builder()
-                .brand("Chevrolet")
-                .model("Camaro")
-                .color("yellow")
-                .build();
     }
 }
