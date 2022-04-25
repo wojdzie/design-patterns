@@ -5,6 +5,7 @@ Below there is a list of design patterns implemented in Java
 1. [Factory Method](src/com/github/wojdzie/design/patterns/creational/factorymethod)
 2. [Abstract Factory](src/com/github/wojdzie/design/patterns/creational/abstractfactory)
 3. [Builder](src/com/github/wojdzie/design/patterns/creational/builder)
+3. [Prototype](src/com/github/wojdzie/design/patterns/creational/prototype)
 
 ## Structural
 
