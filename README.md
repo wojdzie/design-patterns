@@ -9,5 +9,6 @@ Below there is a list of design patterns implemented in Java
 5. [Singleton](src/com/github/wojdzie/design/patterns/creational/singleton)
 
 ## Structural
+1. [Adapter](src/com/github/wojdzie/design/patterns/structural/adapter)
 
 ## Behavioral
