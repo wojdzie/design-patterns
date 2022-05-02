@@ -13,5 +13,6 @@ Below there is a list of design patterns implemented in Java
 2. [Proxy](src/com/github/wojdzie/design/patterns/structural/proxy)
 3. [Bridge](src/com/github/wojdzie/design/patterns/structural/bridge)
 4. [Composite](src/com/github/wojdzie/design/patterns/structural/composite)
+5. [Decorator](src/com/github/wojdzie/design/patterns/structural/decorator)
 
 ## Behavioral
