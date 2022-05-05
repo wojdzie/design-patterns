@@ -18,3 +18,4 @@ Below there is a list of design patterns implemented in Java
 7. [Flyweight](src/com/github/wojdzie/design/patterns/structural/flyweight)
 
 ## Behavioral
+1. [Visitor](src/com/github/wojdzie/design/patterns/behavioral/visitor)
