@@ -25,3 +25,5 @@ Below there is a list of design patterns implemented in Java
 5. [Observer](src/com/github/wojdzie/design/patterns/behavioral/observer)
 6. [Memento](src/com/github/wojdzie/design/patterns/behavioral/memento)
 7. [Mediator](src/com/github/wojdzie/design/patterns/behavioral/mediator)
+8. [Iterator](src/com/github/wojdzie/design/patterns/behavioral/iterator) 
+9. [Command](src/com/github/wojdzie/design/patterns/behavioral/command) 
