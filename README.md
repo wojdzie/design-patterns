@@ -21,3 +21,4 @@ Below there is a list of design patterns implemented in Java
 1. [Visitor](src/com/github/wojdzie/design/patterns/behavioral/visitor)
 2. [Template Method](src/com/github/wojdzie/design/patterns/behavioral/templatemethod)
 3. [Strategy](src/com/github/wojdzie/design/patterns/behavioral/strategy)
+4. [State](src/com/github/wojdzie/design/patterns/behavioral/state)
