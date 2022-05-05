@@ -27,3 +27,5 @@ Below there is a list of design patterns implemented in Java
 7. [Mediator](src/com/github/wojdzie/design/patterns/behavioral/mediator)
 8. [Iterator](src/com/github/wojdzie/design/patterns/behavioral/iterator) 
 9. [Command](src/com/github/wojdzie/design/patterns/behavioral/command) 
+10. [Chain of Responsibility](src/com/github/wojdzie/design/patterns/behavioral/chainofresponsibility) 
+11. [Interpreter](src/com/github/wojdzie/design/patterns/behavioral/interpreter) 
